@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Web App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px; /* Adjust the top padding as needed */
+            background-image: url('background.jpg');
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            color: white; /* Set text color to white for better contrast */
+        }
+        .navbar {
+            z-index: 100; /* Ensure navbar is above the background image */
+        }
+        .card {
+            width: 300px;
+            margin: 0 auto; /* Center align cards horizontally */
+            margin-bottom: 50px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent background */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow to cards */
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            border-radius: 30px;
+            border-color: black;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Set button background color */
+            color: black; /* Set button text color */
+        }
+        .btn:hover {
+            background-color: rgba(160, 255, 115, 0.925);
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Vincy Musics</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Songs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <h1 class="text-center">Welcome to Vincy Musics!</h1>
+    <p class="text-center">Nambi Vaanga Sandhosama Poongaa🙏...</p>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images.jfif" alt="Kirubai Kirubai">
+                <div class="card-body">
+                    <h5 class="card-title">Kirubai Kirubai</h5>
+                    <p class="card-text">Listen to Kirubai Kirubai online. Kirubai Kirubai is a Tamil language song and is sung by Pr. Darwin Ebenezer.</p>
+                    <button class="btn">Play</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="pxfuel.jpg" alt="Let Her Go">
+                <div class="card-body">
+                    <h5 class="card-title">Let Her Go</h5>
+                    <p class="card-text">"Let Her Go" was released on 24 July 2012 as the second single from Passenger's fourth album, All the Little Lights.</p>
+                    <button class="btn">Play</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="Alag-Aasmaan.jpg" alt="Alag Aasmaan">
+                <div class="card-body">
+                    <h5 class="card-title">Alag Aasmaan</h5>
+                    <p class="card-text">The new song narrates the story of a girl who leaves the guy's place and travels back to her house in a different city, under a different sky.</p>
+                    <button class="btn">Play</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
